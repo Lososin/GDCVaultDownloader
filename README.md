@@ -14,11 +14,11 @@ go run ./main.go -url="https://url/to/master.m3u8" -path="path/to/save/file.mkv"
 go run ./main.go -queue="path/to/url_list.txt"
 
 #### Url_List.txt format
-PathToSave1
-url1
-pathToSave2
-url2
-...
+    PathToSave1
+    url1
+    pathToSave2
+    url2
+    ...
 
 List.txt as template included in project.
 
