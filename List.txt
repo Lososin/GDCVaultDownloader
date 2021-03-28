@@ -1,0 +1,18 @@
+Physical Animation in 'Star Wars Jedi: Fallen Order'
+https://blaze-vh.akamaihd.net/i/kaltura/content/r72v1/entry/data/1415/549/0_fjq29u7h_0_,tk0pe9z6,6j7q25g4,_2.mp4.csmil/master.m3u8
+Technical Art Techniques of Naughty Dog: Vertex Shaders and Beyond
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/1007/712/0_vqkqyjkl_0_i3fl4dg8_2.mp4/master.m3u8
+Art Direction Bootcamp: Cinematic Environment Production for 'Uncharted 4'
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/944/654/0_1wb9aun0_0_sy0f8czv_2.mp4/master.m3u8
+Physics Animation in 'Uncharted 4: A Thief's End'
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/1007/712/0_o257xr30_0_2d44ftdg_2.mp4/master.m3u8
+Realistic Performances in Games
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/944/647/0_2efwkhuf_0_izggc87f_2.mp4/master.m3u8
+In-Game and Cinematic Lighting of The Last of Us
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/944/602/0_t1gup08k_0_nuvpwwyh_2.mp4/master.m3u8
+Texturing Uncharted 4: a matter of Substance (presented by ALLEGORITHMIC)
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/928/801/0_vhw3wjit_0_ktv0x8ov_2.mp4/master.m3u8
+The Science of Off-Roading: 'Uncharted 4's' 4x4
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/1007/711/0_kcvoj5eg_0_wgbhdnsf_2.mp4/master.m3u8
+Parallelizing the Naughty Dog Engine Using Fibers
+https://blaze-vh.akamaihd.net/i/kaltura/content/r71v1/entry/data/944/654/0_6kvuqtmi_0_nfnifmd3_2.mp4/master.m3u8
