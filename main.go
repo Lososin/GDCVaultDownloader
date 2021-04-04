@@ -23,7 +23,7 @@ func DownloadFile(url string, file string) {
 
 	file += ".mkv"
 
-	var exePath = "./ffmpeg"
+	var exePath = "./bin/ffmpeg"
 	if runtime.GOOS == "windows" {
 		exePath += ".exe"
 	}
