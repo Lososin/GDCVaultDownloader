@@ -8,11 +8,12 @@ import (
 	"os"
 	"os/exec"
 	"runtime"
+	"strings"
 )
 
 var (
-	URL string = ""
-	FILE_PATH string = ""
+	URL        string = ""
+	FILE_PATH  string = ""
 	QUEUE_FILE string = ""
 )
 
@@ -23,6 +24,10 @@ func DownloadFile(url string, file string) {
 
 	file += ".mkv"
 
+	file = strings.ReplaceAll(file, "'", "")
+	file = strings.ReplaceAll(file, "\"", "")
+	file = strings.ReplaceAll(file, ":", " - ")
+
 	var exePath = "./bin/ffmpeg"
 	if runtime.GOOS == "windows" {
 		exePath += ".exe"
@@ -32,7 +37,7 @@ func DownloadFile(url string, file string) {
 	fmt.Println(cmd)
 	cmd.Stdout = os.Stdout
 	cmd.Stderr = os.Stderr
-	err := cmd.Run()
+	err := cmd.Run()2
 	if err != nil {
 		log.Fatalf("cmd.Run() failed with %s\n", err)
 	}
@@ -56,6 +61,12 @@ func main() {
 	}
 	defer file.Close()
 
+	path, _ := os.Getwd()
+	path += "/" + file.Name() + "_Videos" + "/"
+	if err := os.MkdirAll(path, 0777); err != nil && !os.IsExist(err) {
+		log.Fatal(err)
+	}
+
 	scanner := bufio.NewScanner(file)
 	scanner.Split(bufio.ScanLines)
 
@@ -64,7 +75,7 @@ func main() {
 		text = append(text, scanner.Text())
 	}
 
-	for i := 0; i < len(text); i+=2 {
-		DownloadFile(text[i+1], text[i])
+	for i := 0; i < len(text); i += 2 {
+		DownloadFile(text[i+1], path+text[i])
 	}
 }
